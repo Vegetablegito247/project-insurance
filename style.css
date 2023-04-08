@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.nav-logo {
+    height: 15px;
+    align-self: center;
+}
+
+.sidebar ul li {
+    display: inline-block;
+    padding: 8px 0 5px 10px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+}
+
+.close {
+    display: none;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.sidebar button {
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid hsl(270, 9%, 17%);
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    margin-left: 2rem;
+    transition: .7s;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.sidebar button:hover {
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+}
+
+.burger {
+    display: none;
+}
+
+header {
+    width: 100%;
+    padding: 5rem 6rem;
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.media {
+    display: none;
+}
+
+.textvert {
+    width: 150px;
+    border: 1.5px solid hsl(0, 0%, 98%);
+    margin-bottom: 3rem;
+}
+
+.text h4 {
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    color: hsl(0, 0%, 97%);
+    width: 450px;
+    line-height: 60px;
+}
+
+.text p {
+    width: 540px;
+    color: hsl(0, 0%, 98%);
+    font-family: 'Karla', sans-serif;
+    margin: 2rem 0 2rem;
+}
+
+.txtbtn {
+    background-color: transparent;
+    border: 1.5px solid hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+    font-family: 'Karla', sans-serif;
+    padding: 10px 15px;
+    transition: .7s;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.txtbtn:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(270, 9%, 17%);
+}
+
+.img {
+    width: 450px;
+    position: absolute;
+    top: 80px;
+    right: 96px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.place-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 400px;
+}
+
+.place-left {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 130px;
+    height: 400px;
+}
+
+main {
+    padding: 15rem 6rem 0;
+}
+
+.diff-vert {
+    width: 200px;
+    border: 1px solid hsl(273, 4%, 51%);
+    margin: 0 0 3rem;
+}
+
+.different h1 {
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    color: hsl(270, 9%, 17%);
+}
+
+.diff-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0 0;
+}
+
+.diff {
+    width: 330px;
+}
+
+.diff img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2rem;
+}
+
+.diff h3 {
+    font-size: 25px;
+    color: hsl(270, 9%, 17%);
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 1rem;
+}
+
+.diff p {
+    color: hsl(273, 4%, 51%);
+    line-height: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+.more {
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    margin: 10rem 0 0;
+    padding: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.more-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.more-flex h3 {
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    width: 530px;
+    line-height: 55px;
+    color: hsl(0, 0%, 98%);
+}
+
+.more-flex button {
+    height: 40px;
+    width: 140px;
+    font-size: 12px;
+    color: hsl(0, 0%, 98%);
+    border: 1.5px solid hsl(0, 0%, 98%);
+    background-color: transparent;
+    align-self: center;
+    font-family: 'Karla', sans-serif;
+    transition: .7s;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.more-flex button:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(270, 9%, 17%);
+}
+
+.more-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 370px;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    padding: 4rem 6rem;
+    margin-top: 7rem;
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.foot-head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2rem;
+    border-bottom: 1px solid hsl(273, 4%, 51%);
+}
+
+.foot-logo {
+    height: 15px;
+    align-self: center;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 0 0 0 13px;
+}
+
+.socials li i {
+    font-size: 20px;
+}
+
+.foot-butt {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.foot-butt ul h4 {
+    font-family: 'Karla', sans-serif;
+    color: hsl(273, 4%, 51%);
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.foot-butt ul li {
+    list-style: none;
+    line-height: 30px;
+    font-family: 'Karla', sans-serif;
+    color: hsl(256, 26%, 20%);
+    transition: .7s;
+    cursor: pointer;
+}
+
+.foot-butt ul li:hover {
+    text-decoration: underline;
+}
+
+.foot-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: 250px;
+}
+
+.foot-med-bg,
+.more-med-bg,
+.place-med-left,
+.place-med-right {
+    display: none;
+}
+
+@media (max-width: 575px) {
+    nav {
+        padding: 1rem;
+    }
+
+    .sidebar {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        background-color: hsl(270, 9%, 17%);
+        position: fixed;
+        text-align: center;
+        color: hsl(0, 0%, 98%);
+        top: 10vh;
+        left: 0;
+        z-index: 4;
+        padding: 2rem;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .close {
+        display: none;
+    }
+
+    .sidebar ul li {
+        display: block;
+        line-height: 50px;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .sidebar button {
+        margin-left: 0;
+        margin-top: 3rem;
+        height: 50px;
+        width: 100%;
+        border: 2px solid hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 98%);
+    }
+
+    header {
+        padding: 0 2rem;
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;       
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text {
+        text-align: center;
+        padding: 35rem 0 3rem;
+    }
+
+    .text h4,
+    .text p {
+        width: 100%;
+    }
+
+    .textvert {
+        align-self: center;
+        display: none;
+    }
+
+    .place-med-left {
+        display: block;
+        position: absolute;
+        top: 52%;
+        left: 0;
+    }
+
+    .place-med-right {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 90%;
+    }
+
+    main {
+        padding: 10rem 2rem 0;
+    }
+
+    .diff-vert {
+        margin: 0 auto 2rem;
+    }
+
+    .different h1 {
+        text-align: center;
+    }
+
+    .diff-flex {
+        display: block;
+        text-align: center;
+    }
+
+    .diff {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .more-flex {
+        display: block;
+        text-align: center;
+    }
+
+    .more-flex h3 {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .more-flex button {
+        margin-top: 2rem;
+        z-index: 2;
+    }
+
+    .more-med-bg {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+
+    footer {
+        padding: 4rem 1rem;
+    }
+
+    .foot-head {
+        display: block;
+        text-align: center;
+    }
+
+    .foot-logo {
+        margin-bottom: 1rem;
+    }
+
+    .foot-butt {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .foot-butt ul h4 {
+        margin-top: 2rem;
+    }
+
+    .foot-bg,
+    .more-bg,
+    .place-left,
+    .place-right {
+        display: none;
+    }
+
+    .foot-med-bg {
+        display: block;
+        width: 100%;
+        height: 130px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
