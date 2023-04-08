@@ -280,6 +280,7 @@ footer {
     color: hsl(256, 26%, 20%);
     transition: .7s;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .foot-butt ul li:hover {
