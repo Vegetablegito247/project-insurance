@@ -314,7 +314,7 @@ footer {
         position: fixed;
         text-align: center;
         color: hsl(0, 0%, 98%);
-        top: 10vh;
+        top: 65px;
         left: 0;
         z-index: 4;
         padding: 2rem;
@@ -380,7 +380,7 @@ footer {
     .place-med-left {
         display: block;
         position: absolute;
-        top: 52%;
+        top: 500px;
         left: 0;
     }
 
